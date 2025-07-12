@@ -1,14 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 nav {
     font-family: Montserrat, Helvetica, Arial;
 
@@ -76,10 +65,4 @@ nav {
 
 .icon-img {
     width: 26px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
