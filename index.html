@@ -1,40 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
-    <title>Readme Generator</title>
+  <title>Readme Generator</title>
 </head>
-<body>
-    <nav>
-        <p class="title-txt">Readme Generator</p>
-        <div class="middle-div">
-            <a href="#" class="menu-option">Title</a>
-            <a href="#" class="menu-option">Work</a>
-            <a href="#" class="menu-option">Skills</a>
-            <a href="#" class="menu-option">Contact</a>
-        </div>
-        <div class="icons-div">
-            <a href="#" class="icon-link">
-                <img src="icons/Social/github.svg" alt="github" class="icon-img">
-            </a>
-            <a href="#" class="icon-link">
-                <img src="icons/Social/linkedin.svg" alt="linkedin" class="icon-img">
-            </a>
-        </div>
-    </nav>
 
-    <main>
-        
-    </main>
+<body>
+  <nav>
+    <p class="title-txt">Readme Generator</p>
+    <div class="middle-div">
+      <a href="#title" class="menu-option">Title</a>
+      <a href="#work" class="menu-option">Work</a>
+      <a href="#skills" class="menu-option">Skills</a>
+      <a href="#contact" class="menu-option">Contact</a>
+    </div>
+    <div class="icons-div">
+      <a href="#" class="icon-link">
+        <img src="icons/Social/github.svg" alt="github" class="icon-img">
+      </a>
+      <a href="#" class="icon-link">
+        <img src="icons/Social/linkedin.svg" alt="linkedin" class="icon-img">
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <form action="submit">
+      <div class="top-div" id="title"></div>
+      <div class="container">
+        <div class="container-title">Title</div>
+        <div class="inputs-container">
+          <input id="title-prefix" class="text-input" value="Hi 👋, I'm">
+          <input id="title-name" placeholder="name" class="text-input" value="">
+        </div>
+      </div>
+
+      <div class="container" id="work">
+        <div class="container-title">Subtitle</div>
+        <div class="inputs-container">
+          <input id="subtitle" class="text-input" value="Hi 👋, I'm">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="container-title">Work</div>
+
+        <div class="inputs-container">
+          <input id="currentWork-prefix" placeholder="" class="text-input" value="🔭 I’m currently working on">
+          <input id="currentWork" placeholder="project name"
+            class="text-input">
+          <input id="currentWork-link" placeholder="project link" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="collaborateOn-prefix" class="text-input" value="👯 I’m looking to collaborate on">
+          <input id="collaborateOn" placeholder="project name" class="text-input" value="">
+          <input id="collaborateon-link" placeholder="project link" class="text-input">
+        </div>
+
+        <div
+          class="inputs-container">
+          <input id="helpWith-prefix" class="text-input" value="🤝 I’m looking for help with">
+          <input id="helpWith" placeholder="project name" class="text-input">
+          <input id="helpWith-link" placeholder="project link" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="currentLearn-prefix" class="text-input" value="🌱 I’m currently learning">
+          <input id="currentLearn" placeholder="Frameworks, courses etc." class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="askme-prefix" class="text-input" value="💬 Ask me about">
+          <input id="askme" placeholder="ask me" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="contact-prefix" class="text-input" value="📫 How to reach me">
+          <input id="contact" placeholder="example@gmail.com" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="portfolio-prefix"  class="text-input" value="👨‍💻 All of my projects are available at">
+          <input id="portfolio" placeholder="portfolio link" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="blog-prefix" class="text-input" value="📝 I regularly write articles on">
+          <input id="blog" placeholder="blog link" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="resume-prefix" class="text-input" value="📄 Know about my experiences">
+          <input id="resume" placeholder="resume link" class="text-input">
+        </div>
+
+        <div class="inputs-container">
+          <input id="funFact-prefix" class="text-input" value="⚡ Fun fact">
+          <input id="funFact" placeholder="I think I am funny" class="text-input">
+        </div>
+      </div>
+
+
+    </form>
+  </main>
 
 </body>
+
 </html>
