@@ -1,4 +1,4 @@
-icons = (
+export const icons = [
     { fileName: '11ty.svg', link: '' },
     { fileName: 'amplify.svg', link: '' },
     { fileName: 'android.svg', link: '' },
@@ -196,4 +196,4 @@ icons = (
     { fileName: 'yahoo.svg', link: '' },
     { fileName: 'youtube.svg', link: '' },
     { fileName: 'zapier.svg', link: '' }
-);
+];
