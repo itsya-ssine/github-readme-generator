@@ -6,7 +6,7 @@ let html = '';
 icons.forEach(skill => {
   html += `
     <div class="skill-div" id="${skill.fileName}">
-      <img src="icons/${skill.fileName}" class="skill-img">
+      <img src="${skill.link}" class="skill-img">
     </div>
   `;
 });
