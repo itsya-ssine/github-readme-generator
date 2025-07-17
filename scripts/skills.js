@@ -5,7 +5,7 @@ const skillsElement = document.querySelector(".skills-container");
 let html = '';
 icons.forEach(skill => {
   html += `
-    <div class="skill-div" id="${skill.fileName}">
+    <div class="skill-div" id="${skill.link}">
       <img src="${skill.link}" class="skill-img">
     </div>
   `;
@@ -13,7 +13,7 @@ icons.forEach(skill => {
 skillsElement.innerHTML = html;
 
 icons.forEach((skill, index) => {
-  const element = document.getElementById(skill.fileName);
+  const element = document.getElementById(skill.link);
 
   element.addEventListener('click', event => {
     const el = event.currentTarget;
